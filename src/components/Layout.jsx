@@ -1,12 +1,16 @@
 import React from 'react'
 import { Outlet, Link } from 'react-router-dom'
-import { NavBar } from './'
+import { NavBar, Footer } from './'
 
 const Layout = () => {
 	return (
 		<div>
 		  <NavBar />
-	      <Outlet />
+		  <div className="mt-[8rem]">
+		  	<Outlet />	
+		  </div>
+	      
+	      <Footer />
 	    </div>
 	)
 }

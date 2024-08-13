@@ -27,8 +27,7 @@ body {
 }
 
 .menu-btn {
-	@apply w-[2.5rem] h-[2.5rem] text-[1.2rem] flex items-center justify-center border-none rounded-lg text-white cursor-pointer lg:hidden hover:text-[#a993fe] hover:bg-black hover:border hover:border-[#a993fe];
-	background: linear-gradient(90deg, #a993fe -0.13%,  #7e61e7 99.87%);
+	@apply w-[2.5rem] h-[2.5rem] text-[1.2rem] flex items-center justify-center border-none rounded-lg text-white cursor-pointer lg:hidden hover:text-white hover:bg-black hover:border hover:border-primary bg-secondary;
 }
 
 .menu-btn:hover {
@@ -37,7 +36,7 @@ body {
 }
 
 .mobile-menu {
-	@apply w-screen h-screen bg-[rgba(0,0,0,0.3)] fixed left-0 top-0 z-[999] opacity-0;
+	@apply w-screen h-screen bg-[rgba(0,0,0,0.2)] fixed left-0 top-0 z-[999] opacity-0;
 	box-shadow: 0px 29px 80px rgba(0, 0, 0, 0.3);
 	transition: all 0.3s ease;
 	transform: translateX(-100vw);

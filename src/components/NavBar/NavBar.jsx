@@ -13,12 +13,12 @@ const NavBar = () => {
 		<>
 			<MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
 			<nav className="bg-transparent py-2 fixed top-0 z-[30] backdrop-blur-3xl w-full">
-				<div className="max-w-5xl flex items-center justify-between py-4 mx-auto px-[1.8rem] md:px-[2rem]">
+				<div className="max-w-6xl flex items-center justify-between py-4 mx-auto px-[1rem] md:px-[1.5rem]">
 					<div className="text-2xl font-semibold">
 						<h1 className="">RealTimeAstro</h1>
 					</div>
 
-					<ul className="flex items-center gap-2 space-x-10 hidden lg:flex">
+					<ul className="items-center gap-2 space-x-10 hidden lg:flex">
 						<li className="navlink"><Link to="#home">Horoscope</Link></li>
 						<li className="navlink"><Link to="#services">Astro-Tools</Link></li>
 						<li className="navlink"><Link to="#projects">Services</Link></li>
