@@ -1,10 +1,11 @@
 import React from 'react'
+import { SectionA } from '../components/'
 
 const TeamPage = () => {
 	return (
-		<div>
-			Team
-		</div>
+		<section>
+			<SectionA />
+		</section>
 	)
 }
 

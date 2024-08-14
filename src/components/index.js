@@ -3,11 +3,13 @@ import Layout from './Layout'
 import NavBar from './NavBar/NavBar'
 import MobileNav from './NavBar/MobileNav/MobileNav'
 import Footer from './Footer/Footer'
+import SectionA from './Team/SectionA'
 
 export {
 	ScrollToTop,
 	Layout,
 	NavBar,
 	MobileNav,
-	Footer
+	Footer,
+	SectionA
 }
