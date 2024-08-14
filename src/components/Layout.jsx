@@ -4,9 +4,9 @@ import { NavBar, Footer } from './'
 
 const Layout = () => {
 	return (
-		<div>
+		<div className="w-full h-screen">
 		  <NavBar />
-		  <div className="mt-[8rem]">
+		  <div className="mt-[8rem] px-2">
 		  	<Outlet />	
 		  </div>
 	      

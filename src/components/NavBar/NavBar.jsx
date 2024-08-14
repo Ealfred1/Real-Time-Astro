@@ -20,7 +20,7 @@ const NavBar = () => {
 
 					<ul className="items-center gap-2 space-x-10 hidden lg:flex">
 						<li className="navlink"><Link to="#home">Horoscope</Link></li>
-						<li className="navlink"><Link to="#services">Astro-Tools</Link></li>
+						<li className="navlink"><Link to="/team">Astro-Tools</Link></li>
 						<li className="navlink"><Link to="#projects">Services</Link></li>
 						<li className="navlink"><Link to="#skills">Resources</Link></li>
 						<li className="navlink"><Link to="#contact">Community</Link></li>
