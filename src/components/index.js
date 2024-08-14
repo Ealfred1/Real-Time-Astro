@@ -6,6 +6,7 @@ import Footer from './Footer/Footer'
 import SectionA from './Team/SectionA'
 import SectionB from './Team/SectionB'
 import CourseBox from './Team/CourseBox'
+import Testimonials from './Team/Testimonials'
 
 export {
 	ScrollToTop,
@@ -15,5 +16,6 @@ export {
 	Footer,
 	SectionA,
 	SectionB,
-	CourseBox
+	CourseBox,
+	Testimonials
 }

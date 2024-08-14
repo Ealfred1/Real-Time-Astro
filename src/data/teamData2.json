@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Theresa Webb",
+    "img": "/growth.png",
+    "text": "After Astrolex reading, I now look up at the night sky and see a whole new wonderous universe refelcting back at me.Their writings & courses have my attention, and that's one of the most valuable currencies",
+    "work": "System analyst"
+  },
+  {
+    "id": 2,
+    "name": "Bessie Cooper",
+    "img": "growth.png",
+    "text": "After Astrolex reading, I now look up at the night sky and see a whole new wonderous universe refelcting back at me.Their writings & courses have my attention, and that's one of the most valuable currencies",
+    "work": "Musician"
+  },
+  {
+    "id": 3,
+    "name": "Courtney Henry",
+    "img": "growth.png",
+    "text": "After Astrolex reading, I now look up at the night sky and see a whole new wonderous universe refelcting back at me.Their writings & courses have my attention, and that's one of the most valuable currencies",
+    "work": "Web developer"
+  }
+]
