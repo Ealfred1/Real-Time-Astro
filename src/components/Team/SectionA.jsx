@@ -4,7 +4,7 @@ import data from '../../data/team.json'
 
 const SectionA = () => {
 	return (
-		<section className="w-full flex items-center flex-col">
+		<section className="w-full flex items-center flex-col space-y-16">
 			<div className="flex items-center flex-col w-1/2">
 				<div className="mb-2">
 					<h1 className="text-secondary text-[4.5rem] font-serif font-semibold">Astro-Team</h1>
@@ -18,9 +18,9 @@ const SectionA = () => {
 
 			<div className="flex items-center justify-around gap-3 w-[90%]">
 				{ data.map((team) => (
-	              <div key={team.id} className="w-[20%] h-auto shadow-md border border-transparent bg-white rounded-xl flex items-center flex-col py-4">
+	              <div key={team.id} className="w-[20%] h-auto flex items-center flex-col py-4">
 	              	<div className="bg-primary">
-	              		<img className="object-cover w-[10rem] h-[10rem] rounded-full" src={team.img} alt="" />	
+	              		<img className="object-cover w-[11rem] h-[11rem] rounded-full" src={team.img} alt="" />	
 	              	</div>
 	                
 	                <div className="max-w-prose p-4 space-y-8 text-center flex
