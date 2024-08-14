@@ -2,40 +2,33 @@ import { Link } from 'react-router-dom';
 
 const CourseBox = ({ id, name, img, time, courses, sales, price }) => {
   return (
-    <div className="w-full md:w-2/3 flex flex-col items-center border border-8 border-silverR rounded-lg bg-white shadow-lg p-8 relative">
-          <img src={img} alt="reload your browser" className="h-64 w-full object-cover rounded-lg" />
-          <h3 className="text-2xl text-DarkOrange font-semibold py-4 tracking-wide">{time}</h3>
-          <p className="p text-center">{name}</p>
+    <div className="w-[30%] h-auto flex flex-col items-center rounded-xl bg-white p-2 relative">
+          <img src={img} alt="reload your browser" className="h-64 w-full object-cover rounded-xl" />
+
+          <div className="w-full text-secondary text-right p-2">
+            <i className="pi pi-star-fill"></i>
+            <i className="pi pi-star-fill"></i>
+            <i className="pi pi-star-fill"></i>
+            <i className="pi pi-star-fill"></i>
+            <i className="pi pi-star-fill"></i>
+          </div>
          
-         <div className="mt-4 space-y-4">
-          <div>
-            <p className="p font-extrabold">
-              Time and Date:
-            </p>
-            <p className="p text-silverR font-normal">{sales}</p>
-          </div>
-          <div>
-            <p className="p font-extrabold">
-              Duration:
-            </p>
-            <p className="p text-silverR font-normal">
-              {time}
-            </p>
-          </div>
-          <div>
-            <p className="p font-extrabold">
-              Price:
-            </p>
-            <p className="p text-silverR font-normal">
-              {price}
-            </p>
-          </div>
+         <div className="mt-1 space-y-1 w-full px-2">
+            <h2 className="text-lg">{name}</h2>
+            <p className="text-xs text-secondary">{price}</p>
          </div>
-         
-         <div className="flex justify-between px-4 w-full gap-6 mt-4">
-          <Link to={`/register`} className="bg-redD btn2">Register</Link>
+
+         <div className="border-t border-t-gray-200 w-full h-auto mt-2 flex py-3 gap-3 items-center">
+           <p className="text-[13px]"><i className="pi pi-clock"></i> {time}</p>
+           <p className="text-[13px]"><i className="pi pi-video"></i> {courses}</p>
+           <p className="text-[13px]"><i className="pi pi-download"></i> {sales}</p>
          </div>
-        </div>
+
+         <div className="w-full flex items-center justify-center translate-y-5">
+           <Link className="bg-secondary w-[10rem] h-10 px-2 flex items-center justify-center rounded-3xl">Join Course</Link>
+         </div>
+
+      </div>
   )
 }
 
