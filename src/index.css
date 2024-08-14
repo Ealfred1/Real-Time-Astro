@@ -63,3 +63,24 @@ body {
   .download::before {
     @apply left-[-18%]
   }
+
+  .input-con {
+    @apply relative my-6 mx-2 space-y-4;
+}
+
+
+.input-con input {
+    transition: border-bottom-color 0.1s ease;
+    caret-color: secondary;
+    @apply w-full h-14 py-2 px-4 text-sm border border-primary outline-none rounded-xl text-primary bg-transparent autofill:bg-transparent placeholder-primary mb-5;
+}
+
+.input-con label {
+	@apply font-serif text-xl font-semibold uppercase;
+}
+
+
+
+.select {
+  @apply border border-primary w-full h-12 text-sm rounded-lg px-3 flex items-center justify-center outline-none; 
+ }
