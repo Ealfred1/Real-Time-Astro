@@ -20,7 +20,7 @@ const SectionA = () => {
 				{ data.map((team) => (
 	              <div key={team.id} className="w-[20%] h-auto flex items-center flex-col py-4">
 	              	<div className="bg-primary">
-	              		<img className="object-cover w-[11rem] h-[11rem] rounded-full" src={team.img} alt="" />	
+	              		<img className="object-cover w-[11rem] h-[11rem] rounded-full border border-black" src={team.img} alt="" />	
 	              	</div>
 	                
 	                <div className="p-4 space-y-2 text-center flex
