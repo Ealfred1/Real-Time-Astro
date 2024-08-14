@@ -26,7 +26,7 @@ const SectionA = () => {
 	                <div className="p-4 space-y-2 text-center flex
 	                items-center flex-col">
 	                <h2 className="text-lg tracking-tight text-primary uppercase">{team.name}</h2>
-	                <Link to={`/teams/${team.id}`} className="h-10 py-2 px-5 text-center bg-secondary text-sm grid place-content-center text-primary rounded-xl">Consult</Link>
+	                <Link to={`/teams/${team.id}`} className="h-10 py-2 px-5 text-center bg-secondary text-sm grid place-content-center text-primary rounded-xl hover:opacity-70 cursor-pointer">Consult</Link>
 	                </div>
 	              </div>
               )) }
