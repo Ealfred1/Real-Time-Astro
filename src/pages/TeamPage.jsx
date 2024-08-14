@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionA, SectionB } from '../components/'
+import { SectionA, SectionB, CourseBox } from '../components/'
 import { Link } from 'react-router-dom'
 import data from '../data/teamData.json'
 
@@ -15,9 +15,9 @@ const TeamPage = () => {
 				</div>
 
 				<div className="w-full flex items-center flex-col lg:flex-row justify-around gap-3">
-					{ data.map((course) => ()
-						
-					)}
+					{ data.map((course) => (
+						<CourseBox id={course.id} name={course.name} img={course.img} price={course.price} sales={course.sales} time={course.time} courses={course.courses} /> 
+					))}
 				</div>
 			</section>
 		</section>

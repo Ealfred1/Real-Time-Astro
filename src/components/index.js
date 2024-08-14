@@ -5,6 +5,7 @@ import MobileNav from './NavBar/MobileNav/MobileNav'
 import Footer from './Footer/Footer'
 import SectionA from './Team/SectionA'
 import SectionB from './Team/SectionB'
+import CourseBox from './Team/CourseBox'
 
 export {
 	ScrollToTop,
@@ -14,4 +15,5 @@ export {
 	Footer,
 	SectionA,
 	SectionB,
+	CourseBox
 }
