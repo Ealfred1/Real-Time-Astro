@@ -25,7 +25,7 @@ const CourseBox = ({ id, name, img, time, courses, sales, price }) => {
          </div>
 
          <div className="w-full flex items-center justify-center translate-y-5">
-           <Link className="bg-secondary w-[10rem] h-10 px-2 flex items-center justify-center rounded-3xl">Join Course</Link>
+           <Link className="bg-secondary w-[10rem] h-10 px-2 flex items-center justify-center rounded-3xl hover:opacity-80">Join Course</Link>
          </div>
 
       </div>
