@@ -1,14 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Dance Workshop: Hip-hop Basics",
+    "name": "Astrologer",
+    "img": "/astro.png"
   },
   {
     "id": 2,
-    "name": "Salsa Night Extravaganza",
+    "name": "Star Gazer",
+    "img": "/astro.png"
   },
   {
     "id": 3,
-    "name": "Ballroom Dance Masterclass",
+    "name": "Fortune Teller",
+    "img": "/astro.png"
+  },
+  {
+    "id": 4,
+    "name": "Zodiac Reader",
+    "img": "/astro.png"
+  },
+  {
+    "id": 5,
+    "name": "Numerologist",
+    "img": "/astro.png"
   }
 ]
