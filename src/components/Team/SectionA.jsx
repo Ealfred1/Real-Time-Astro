@@ -16,9 +16,9 @@ const SectionA = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center justify-around gap-3 w-[90%]">
+			<div className="flex flex-col lg:flex-row items-center justify-around gap-3 w-[90%]">
 				{ data.map((team) => (
-	              <div key={team.id} className="w-[20%] h-auto flex items-center flex-col py-4">
+	              <div key={team.id} className="w-full lg:w-[20%] h-auto flex items-center flex-col py-4">
 	              	<div className="bg-primary">
 	              		<img className="object-cover w-[11rem] h-[11rem] rounded-full border border-black" src={team.img} alt="" />	
 	              	</div>

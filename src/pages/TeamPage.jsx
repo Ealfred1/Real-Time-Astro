@@ -13,6 +13,10 @@ const TeamPage = () => {
 					<h3 className="text-secondary uppercase">Courses</h3>
 					<h1 className="text-7xl font-serif text-center capitalize font-medium">Learn the practical science<br /> of astrology</h1>
 				</div>
+
+				<div className="w-full">
+					
+				</div>
 			</section>
 		</section>
 	)
