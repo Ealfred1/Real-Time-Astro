@@ -1,4 +1,6 @@
 import React from 'react'
+import { SectionB } from '../components'
+
 
 const BookingPage = () => {
 	return (
@@ -15,7 +17,7 @@ const BookingPage = () => {
 			</div>
 
 			<div className="w-full">
-				<form className="mt-4 px-2 max-w-5xl mx-auto w-full" method="post">
+				<form className="mt-4 px-2 max-w-7xl mx-auto w-full" method="post">
           <div className="flex justify-around w-full -mb-4">
           
             <div className="input-con md:w-[45%]">
@@ -87,7 +89,7 @@ const BookingPage = () => {
           <div className="flex justify-around w-full mt-4">
           
             <div className="input-con w-[95%]">
-            <label htmlFor="first_name">First Name</label>
+            <label htmlFor="first_name">Message (optional)</label>
               <textarea
               className="w-full h-28 p-4 text-sm border border-primary outline-none rounded-xl text-primary bg-transparent autofill:bg-transparent placeholder-primary mb-5"
               placeholder="Your Message"
@@ -102,7 +104,9 @@ const BookingPage = () => {
           </div>
           
          </form>
-			</div>
+		</div>
+
+		<SectionB />
 		</section>
 	)
 }

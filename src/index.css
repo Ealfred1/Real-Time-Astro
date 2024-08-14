@@ -82,5 +82,5 @@ body {
 
 
 .select {
-  @apply border border-primary w-full h-12 text-sm rounded-lg px-3 flex items-center justify-center outline-none; 
+  @apply border border-primary w-full h-14 text-sm rounded-lg px-3 flex items-center justify-center outline-none; 
  }
