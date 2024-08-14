@@ -13,12 +13,16 @@ const Testimonials = () => {
 				{ data.map((user) => (
 					<div className="w-[30%] h-auto bg-[#0a0f14] flex flex-col items-center rounded-xl p-6 relative text-neutrall">
 						
-						<div className="">
+						<div className="mb-9 text-center">
 							<p className="">{user.text}</p>
 						</div>
 
-						<div className="w-full flex flex-col items-center justify-around">
-							
+						<div className="w-full flex flex-col items-center justify-around mt-5 gap-4">
+							<img src={user.img} alt="" className="w-[10rem] h-[10rem] rounded-full object-cover" />
+							<div className="">
+								<h2 className="text-center">{user.name}</h2>
+								<p className="">{user.work}</p>
+							</div>
 						</div>
 
 					</div>
