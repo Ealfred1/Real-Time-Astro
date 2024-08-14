@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionA, SectionB, CourseBox, Testimonials } from '../components/'
+import { SectionA, SectionB, CourseBox, Testimonials, Download } from '../components/'
 import { Link } from 'react-router-dom'
 import data from '../data/teamData.json'
 
@@ -20,6 +20,7 @@ const TeamPage = () => {
 					))}
 				</div>
 				<Testimonials />
+				<Download />
 			</section>
 		</section>
 	)

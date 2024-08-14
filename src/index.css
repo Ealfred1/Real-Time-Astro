@@ -46,3 +46,20 @@ body {
 	opacity: 1;
 	transform: translateX(0);
 }
+
+.download {
+    @apply flex justify-center items-center mb-48 relative flex-col lg:flex-row;
+  }
+
+ .download::after, .download::before {
+    content: '';
+    @apply w-[12rem] h-[12rem] md:w-[18rem] md:h-[18rem] lg:w-[28.125rem] lg:h-[28.125rem] rounded-[28.125rem] bg-[url('/zodiac4.png')] absolute z-[-1];
+  }
+
+  .download::after {
+    @apply right-[-15%]
+  }
+
+  .download::before {
+    @apply left-[-18%]
+  }

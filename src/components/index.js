@@ -7,6 +7,7 @@ import SectionA from './Team/SectionA'
 import SectionB from './Team/SectionB'
 import CourseBox from './Team/CourseBox'
 import Testimonials from './Team/Testimonials'
+import Download from './Team/Download'
 
 export {
 	ScrollToTop,
@@ -17,5 +18,6 @@ export {
 	SectionA,
 	SectionB,
 	CourseBox,
-	Testimonials
+	Testimonials,
+	Download
 }
