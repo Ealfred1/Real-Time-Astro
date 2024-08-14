@@ -23,11 +23,10 @@ const SectionA = () => {
 	              		<img className="object-cover w-[11rem] h-[11rem] rounded-full" src={team.img} alt="" />	
 	              	</div>
 	                
-	                <div className="max-w-prose p-4 space-y-8 text-center flex
+	                <div className="p-4 space-y-2 text-center flex
 	                items-center flex-col">
-	                <h2 className="text-2xl text-slate-600 capitalize
-	                font-bold">{team.name}</h2>
-	                <Link to={`/teams/${team.id}`} className="w-full h-16 py-4 px-5 text-center bg-secondary text-lg grid place-content-center text-white rounded-xl">View Details</Link>
+	                <h2 className="text-lg tracking-tight text-primary uppercase">{team.name}</h2>
+	                <Link to={`/teams/${team.id}`} className="h-10 py-2 px-5 text-center bg-secondary text-sm grid place-content-center text-primary rounded-xl">Consult</Link>
 	                </div>
 	              </div>
               )) }
