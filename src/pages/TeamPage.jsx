@@ -14,8 +14,10 @@ const TeamPage = () => {
 					<h1 className="text-7xl font-serif text-center capitalize font-medium">Learn the practical science<br /> of astrology</h1>
 				</div>
 
-				<div className="w-full">
-					
+				<div className="w-full flex items-center flex-col lg:flex-row justify-around gap-3">
+					{ data.map((course) => ()
+						
+					)}
 				</div>
 			</section>
 		</section>
