@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Astrologer",
-    "img": "/astro.png"
+    "name": "imgloger",
+    "img": "/img.jpeg"
   },
   {
     "id": 2,
     "name": "Star Gazer",
-    "img": "/astro.png"
+    "img": "/img.jpeg"
   },
   {
     "id": 3,
     "name": "Fortune Teller",
-    "img": "/astro.png"
+    "img": "/img.jpeg"
   },
   {
     "id": 4,
     "name": "Zodiac Reader",
-    "img": "/astro.png"
+    "img": "/img.jpeg"
   },
   {
     "id": 5,
     "name": "Numerologist",
-    "img": "/astro.png"
+    "img": "/img.jpeg"
   }
 ]

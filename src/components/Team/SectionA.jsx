@@ -19,7 +19,10 @@ const SectionA = () => {
 			<div className="flex items-center justify-around gap-3 w-[90%]">
 				{ data.map((team) => (
 	              <div key={team.id} className="w-[20%] h-auto shadow-md border border-transparent bg-white rounded-xl flex items-center flex-col py-4">
-	                <img className="object-cover w-[10rem] h-[10rem] rounded-full" src={team.img} alt="" />
+	              	<div className="bg-primary">
+	              		<img className="object-cover w-[10rem] h-[10rem] rounded-full" src={team.img} alt="" />	
+	              	</div>
+	                
 	                <div className="max-w-prose p-4 space-y-8 text-center flex
 	                items-center flex-col">
 	                <h2 className="text-2xl text-slate-600 capitalize
